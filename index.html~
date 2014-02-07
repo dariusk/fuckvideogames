@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fuck Videogames.</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="slide.css" media="screen">
+    <script src="lib/jquery-1.9.0.min.js"></script>
+    <script src="lib/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="slide.js"></script>
+    <script id="touch-template" type="template">
+      <div id="touch">
+        <button id="start">start presentation</button>
+        <button id="done">done</button>
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+      </div>
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <div class="slide">
+        <h1>Fuck Videogames</h1>
+        <h2>by Darius Kazemi</h2>
+        <p>(Use arrow keys or touch to go forward/back.)
+      </div>
+      <div class="slide">
+        <h2>First, a disclaimer:</h2>
+        <p>The argument that I am making is meant for people who struggle to express themselves creatively through making videogames. It’s not for people who make games as their job (necessarily). It’s not for people who are successful at expressing themselves creatively through videogames. It's not for people who make games in order to make money, or to entertain people. I'm specifically talking about making games as an expressive, exploratory activity (and even more specifically, the failure to do so).</p>
+      </div>
+      <div class="slide">
+        <p>...seriously: if you are happy with videogames as your medium of choice for creative expression and exploration, good for you. This isn't for you.</p>
+        <p>Okay? Here we go.</p>
+      </div>
+      <div class="slide">
+        <p>In my years working in the videogame industry, I would often hear really smart people repeat the claim that videogames are <strong>"the most exciting medium in the world,"</strong> or perhaps, <a href="http://chrishecker.com/About/Me">as Chris Hecker says</a>, that games have the potential to "become the preeminent art and entertainment form of the 21st century."</p>
+        <p>This implies that videogames, due to some magical quality (interactivity?), are imbued with more potential as a medium than, say, books.</p>
+      </div>
+      <div class="slide">
+        <h1>Fuck that.</h1>
+      </div>
+      <div class="slide">
+        <img src="images/mandelbrot.gif">
+        <p>Every medium is imbued with the exact same amount of possibility: it’s like <a href='http://www.abstractmath.org/MM/MMRealDensity.htm'>the density of the Real Line</a>. The density of the Real Line between 0 and 1 is infinite, as is the density between 0.2 and 0.4, which is the same as between 0 and 100, etc.</p>
+        <p>You can <em>always</em> drill down, and there will always be more to discover about a medium.</p>
+      </div>
+      <div class="slide">
+        <p>Furthermore, I've heard the claim that videogames are somehow "new" and therefore are exciting. But hey! New mediums appear every single god damned day. Anything is a medium. Here is a list of mediums that are possibly more exciting than games:</p>
+        <ul>
+          <li>twitter</li>
+          <li>hypertext</li>
+          <li>gelato</li>
+          <li>what my cat pooped this week</li>
+        </ul>
+        <img src="images/christopherprez.png" width=400>
+      </div>
+      <div class="slide">
+        <h1>don’t fucking limit yourself</h1>
+      </div>
+      <div class="slide">
+        <p>In 2012 I realized videogames were holding me back, artistically speaking. Or rather: my tunnel vision focus on videogames as "my" medium was holding me back.</p>
+        <p>Let's say you have a thing you want to express or an idea you want to explore. Maybe it’s best explored with a game. <em>Or maybe it fucking isn’t.</em> One time I wanted to make an autobiographical game that summed up how I felt in the spring and summer of 2009. I labored over it for a month, building a shitty platform game of all things, before I realized that I could just WRITE IT DOWN:</p>
+        <blockquote>"My girlfriend at the time treated me like shit and I really fucking hated her."</blockquote>
+        <p>While it wouldn’t be <em>novel</em> to write such a thing, it would be better than making a platform game, in that it would better express what I was trying to express to the audience I was trying to reach.</p>
+      </div>
+      <div class="slide">
+        <p>(Unless my audience was navel-gazing videogames bloggers, in which case I absolutely should’ve made the autobiographical platformer.)</p>
+        <img src="images/gamer.gif">
+      </div>
+      <div class="slide">
+        <p>In 2012 I was forced to ask:</p>
+        <p>Why do some people default to games as their medium of creative expression?</p>
+      </div>
+      <div class="slide">
+        <p>Some people make games because they want to express things that they think need to be expressed through systems of play or interactivity or ritual or whatnot.<p>
+        <p>This is a good reason.</p>
+      </div>
+      <div class="slide">
+        <p>Some people make games because they grew up with games and always saw themselves as the kind of person who would one day make games.</p>
+        <p>I don't think this is a very good reason. I think it's arbitrarily limiting, but <em>a lot</em> of people I know fall into this category.</p>
+      </div>
+      <div class="slide">
+        <p>Some people make games because games are cool, or sexy. What I mean is: if you write a blog post about your cat, probably nobody will care. But if you make a GAME about your cat, it’ll get covered on a blog or something!</p>
+        <p>But just because you’re right that you’ll get more fucking media coverage doesn’t mean you’re not a creatively bankrupt asshole.</p>
+      </div>
+      <div class="slide">
+        <p>Games should be a tool in your creative toolbelt. That’s all. If you want to express a feeling or an idea, try it as a game, but if it doesn’t work... don’t bang your head against it trying to solve the problem. Express it some other way.</p>
+      </div>
+      <div class="slide">
+        <p>Try not to frame the problem you’re trying to solve as "I need to innovate in this medium" -- that is a poisonous way of thinking. You should say, "I’m trying to do X, now what can I do to make it happen?"</p>
+      </div>
+      <div class="slide">
+        <p>Games are a methodology, a tool, an approach.</p>
+        <p>And you should always add more tools to your belt.</p>
+      </div>
+      <div class="slide">
+        <p>If you struggle at creatively expressing yourself via making games&mdash;if you've made lots of games but they get you nowhere, if you find yourself with more shelved projects than you can count, try two things:
+          <ol>
+            <li>Keep making games and get better at it.</li>
+            <li>...but don’t spend all your time on that. Add some breadth as well as depth. Learn CNC milling or latte art or JavaScript or creative writing or painting or cat poop handling or whatever. It is possible that one of these new-to-you tools will get the job done more simply and more effectively than videogames ever did.</li>
+      </div>
+      <div class="slide">
+        <p>In 2012 I realized that a huge part of my interest in games came from an interest in generative experiences, serendipitous systems, and randomness. I had a lot of fun figuring out how that worked in the context of games: level generators and AI and that kind of stuff. But you know what? Turns out the Internet ecosystem itself is a way more fertile and effective medium for exploring that kind of thing (for me, at least).</p>
+      </div>
+      <div class="slide">
+        <p>In 2012 I started making <a href="https://twitter.com/metaphorminute">Twitter</a> <a href="https://twitter.com/latourswag">bots</a> and <a href="http://tinysubversions.com/outslide/">really</a> <a href="http://randomshopper.tumblr.com/post/35454415921/randomized-consumerism">strange</a> <a href="http://rapbot.jit.su/">programs</a>. Recently I removed "game developer" from a lot of my online bios and profiles. I started identifying more as someone who makes "weird internet stuff." I could rest on "Twitter bots" or "JavaScript" as my chosen form but I’m also taking classes in machining so I’m not bound to a computer screen. Maybe someday soon I'll make something neat that isn't even tied to the internet at all.</p>
+      </div>
+      <div class="slide">
+        <p>I guess what I’m trying to say is: if games AREN’T working for you as a tool for creative expression, don’t give up on games, but also try some other stuff.  Don’t try and bend ideas to fit into the mold of "game". MAYBE try and bend "game" to fit to your idea, that might work (I’m thinking of Twine games here, which bend the concept of game so much that it makes traditional game designers cranky that the authors have the audacity to use the word "game". This also works in the other direction: please think about whether your Twine game should be an essay instead.)</p>
+      </div>
+      <div class="slide">
+        <h1>And, finally: a word about COMMUNITY</h1>
+      </div>
+      <div class="slide">
+        <p>Community! Yay! It’s a thing we have! It’s what makes indie games great! Hooray!</p>
+      </div>
+      <div class="slide">
+        <p>But it’s possible to get swept up in community. It's possible that community becomes the reason we make games, which to me seems a little perverse.</p>
+        <p>Here I will quote (with permission) an email exchange I had with <a href='http://twitter.com/robdubbin'>Rob Dubbin</a>:</p>
+        <blockquote>"A lot of the perceived rewards of expressing something as a game are extrinsic rewards from the culture that's sprung up around gaming, and rather than chase those rewards in all cases, it's better/more rewarding to pursue the intrinsic reward of successfully expressing something on a case-by-case basis, in whatever medium fits that idea best. [...] <em>Buying into the idea that validation can/should/will come from a given culture is way more nourishing to that culture than it is to you.</em>"[emphasis mine]</blockquote>
+      </div>
+      <div class="slide">
+        <p>So that's what I have to say. Remember kids, whenever you get frustrated at the state of the art, or you find yourself struggling to express yourself, just repeat after me:</p>
+      </div>
+      <div class="slide">
+        <h1>Fuck. Videogames.</h1>
+        <p>-Darius Kazemi</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="font-size:0.8em">Published May 3, 2013. Adapted from <a href='http://www.bostonindies.com/2013/04/03/march-2013-meeting-writeup-lightning-talks/'>a talk I gave to Boston Indies</a> on March 18, 2013. Special thanks to the people who attended that talk, who convinced me I should publish this. This slide deck is powered by Greg Smith's absolutely incredible, dead-simple tool <a href="https://github.com/incompl/slide">Slide</a>.</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-339043-1");
+      pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+  </body>
+</html>

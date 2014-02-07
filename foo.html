@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Slide</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="slide.css" media="screen">
+    <script src="lib/jquery-1.9.0.min.js"></script>
+    <script src="lib/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="slide.js"></script>
+
+    <script id="touch-template" type="template">
+      <div id="touch">
+        <button id="start">start presentation</button>
+        <button id="done">done</button>
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+      </div>
+    </script>
+  </head>
+  <body>
+
+    <div id="wrapper">
+
+      <div class="slide">
+        <h1>
+          <style>
+            /* I like to put slide-specific hacks in the slide,
+            which I'd never do in a webapp of course ;) */
+            #logoLeft {
+              float: left;
+            }
+            #logoRight {
+              float: right;
+            }
+            #logoLeft, #logoRight {
+              max-width: 25%;
+            }
+          </style>
+          <img id="logoLeft" src="images/tylerdurden.png">
+          Slide
+          <img id="logoRight" src="images/powerpenguin.png">
+        </h1>
+        <h2>JavaScript slides without pain</h2>
+        <p>
+          Slide makes a presentation out of a normal webpage. You can
+          scroll it, print it, and view it on any device.
+        </p>
+        <p>
+          Want to try it? Try pressing escape on the nearest keyboard. Then use the arrow keys.
+        </p>
+      </div>
+
+      <div class="slide">
+        <h1>Hash location support</h1>
+        <p>
+          When you share the URL it'll point to the current slide.
+        </p>
+      </div>
+
+      <div class="slide">
+        <h1>You're not screwed if a slide is too long</h1>
+        <p>
+          Just scroll down.
+        </p>
+        <img src="images/longcat.jpg">
+      </div>
+
+      <div class="slide">
+        <h1>Easy to theme</h1>
+        <p>
+          Slide doesn't do anything hacky that makes it fragile when you're trying to tweak it. You can just throw in any old style and it'll work.
+        </p>
+      </div>
+
+      <div class="slide">
+        <h1>Mobile + Touch</h1>
+        <img src="images/iphone5.png">
+      </div>
+
+      <div class="slide" id="i-have-a-custom-id-just-for-fun">
+        <h1>Cool, eh?</h1>
+        <p>
+          You can press escape again to go back to viewing this presentation as a normal webpage.
+        </p>
+      </div>
+
+      <div class="slide">
+        <h1>Made by Greg Smith</h1>
+        <ul>
+          <li><a href="http://incompl.com">about me</a></li>
+          <li>i work at <a href="http://bocoup.com">bocoup</a></li>
+          <li><a href="https://github.com/incompl/slide">download / contribute on github</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </body>
+</html>
